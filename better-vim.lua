@@ -1,12 +1,17 @@
 return {
   theme = {
-    name = "catppuccin",
-    catppuccin_flavour = "frappe" 
+   name = "catppuccin",
+   catppuccin_flavour = "mocha"
  },
+
  mappings = {
-  leader = ",",
+  leader = " ",
   custom = {
     ["<c-b>"] = {"<cmd>NvimTreeToggle<cr>", "Open file explorer"},
   }
- }
+ },
+
+ lualine = {
+   sections = { c = {'branch'} }
+  }
 }

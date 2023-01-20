@@ -1,0 +1,20 @@
+{
+  "diagnostic.errorSign": "❗️",
+  "diagnostic.warningSign": "⚠️ ",
+  "diagnostic.infoSign": "⚠️ ",
+  "coc.preferences.formatOnSave": false,
+  "javascript.validate.enable": false,
+  "eslint.autoFixOnSave": false,
+  "languageserver": {
+    "rescript": {
+      "enable": true,
+      "module": "~/.config/nvim/plugged/vim-rescript/server/out/server.js",
+      "args": ["--node-ipc"],
+      "filetypes": ["rescript"],
+      "rootPatterns": ["bsconfig.json"]
+    }
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["rescript", "prisma"],
+  "rust-analyzer.rustfmt.extraArgs": ["+nightly"],
+  "rust-analyzer.inlayHints.parameterHints.enable": false
+}
